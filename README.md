@@ -1,5 +1,7 @@
 # 🎨 Frontend - Generador de Ideas Infinitas
 
+[Repositorio del backend](https://github.com/sandovaldavid/generador-ideas-backend)
+
 > Interfaz moderna y elegante para generar ideas de negocio usando IA
 
 [![React](https://img.shields.io/badge/React-19.1.1-61dafb?logo=react)](https://react.dev)
