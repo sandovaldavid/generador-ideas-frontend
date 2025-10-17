@@ -1,5 +1,7 @@
 # 🎨 Frontend - Generador de Ideas Infinitas
 
+[Repositorio del backend](https://github.com/sandovaldavid/generador-ideas-backend)
+
 > Interfaz moderna y elegante para generar ideas de negocio usando IA
 
 [![React](https://img.shields.io/badge/React-19.1.1-61dafb?logo=react)](https://react.dev)
@@ -29,10 +31,10 @@
 
 ```bash
 # Clonar el repositorio (si no lo has hecho)
-git clone <tu-repo>
+git clone https://github.com/sandovaldavid/generador-ideas-frontend.git
 
 # Ir al directorio frontend
-cd frontend
+cd generador-ideas-frontend
 
 # Instalar dependencias
 npm install
@@ -53,7 +55,7 @@ La aplicación estará disponible en `http://localhost:5173`
 ## 📁 Estructura del Proyecto
 
 ```
-frontend/
+generador-ideas-frontend/
 ├── src/
 │   ├── components/          # Componentes React
 │   │   ├── Layout.tsx       # Layout principal con header/footer
