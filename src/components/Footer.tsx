@@ -30,7 +30,7 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      href: "https://instagram.com/dev_sandoval",
+      href: "https://instagram.com/dev.sandoval",
       icon: InstagramIcon,
       color: "hover:text-accent-600 dark:hover:text-accent-400",
     },
