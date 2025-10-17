@@ -5,6 +5,7 @@ import IdeasDisplay from "./components/IdeasDisplay";
 import type { Idea, BackendApiResponse } from "./types";
 import { API_CONFIG, MESSAGES } from "./config/constants";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [businessType, setBusinessType] = useState("");
@@ -72,6 +73,7 @@ function App() {
       />
       <IdeasDisplay ideas={ideas} isLoading={isLoading} error={error} />
       <Analytics />
+      <SpeedInsights />
     </Layout>
   );
 }
