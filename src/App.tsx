@@ -4,6 +4,7 @@ import GeneratorForm from "./components/GeneratorForm";
 import IdeasDisplay from "./components/IdeasDisplay";
 import type { Idea, BackendApiResponse } from "./types";
 import { API_CONFIG, MESSAGES } from "./config/constants";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [businessType, setBusinessType] = useState("");
@@ -70,6 +71,7 @@ function App() {
         isLoading={isLoading}
       />
       <IdeasDisplay ideas={ideas} isLoading={isLoading} error={error} />
+      <Analytics />
     </Layout>
   );
 }

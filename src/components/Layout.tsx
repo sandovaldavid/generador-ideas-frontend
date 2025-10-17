@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { Analytics } from "@vercel/analytics/next";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -16,7 +15,6 @@ export default function Layout({ children }: LayoutProps) {
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">{children}</div>
-        <Analytics />
       </main>
 
       {/* Footer Component */}
